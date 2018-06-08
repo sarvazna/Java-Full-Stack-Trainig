@@ -1,0 +1,33 @@
+class Animal
+{
+	class Feline extends Animal
+	{
+		public void eat()
+		{
+			System.out.print("Eat");
+		}
+		public void sleep()
+		{
+			System.out.print("Sleeping");
+		}
+	}
+	public void eat()
+	{
+			System.out.print("Eat");
+	}
+	public void sleep()
+	{
+			System.out.print("Sleeping");
+	}
+	public static void main(String[] args)
+	{
+		Animal a=new Animal();
+		a.eat();
+		a=new Feline();
+		a.eat();
+		a=new Animal();
+		a.sleep();
+		a=new Feline();
+		a.sleep();
+	}
+}

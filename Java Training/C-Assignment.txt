@@ -1,0 +1,52 @@
+1.
+
+Create a structure called 'Student'.
+
+It has following fields.
+
+Name:	char[]
+Age:	int
+
+
+Program should have following functions:
+
+void accept(Student s);
+void display(Student s);
+
+2.
+
+Create a structure called 'Student'.
+
+It has following fields.
+
+Name:	char*
+Age:	int
+
+
+Program should have following functions:
+
+void accept();
+void display();
+
+Show use of global variable.
+
+
+3.
+
+Create a structure called 'Student'.
+
+It has following fields.
+
+Name:	char*
+Age:	int
+
+
+Program should have following functions:
+
+void accept(Student* s);
+void display(Student* s);
+
+Show use of Dynamic memory allocation.
+
+
+

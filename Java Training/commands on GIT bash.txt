@@ -1,0 +1,11 @@
+Run these commands from your project directory
+
+JAVA_HOME=/d/bcpabh/setups/jdk1.8.0_92
+
+PATH=$JAVA_HOME/bin:$PATH
+
+CLASSPATH=/d/training/04022018-FLP-MF-JAVA/code/FirstDemo/bin
+
+javac -d bin/ src/Entry.java
+
+java Entry
