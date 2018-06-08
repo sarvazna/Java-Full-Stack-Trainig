@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class EmpDir
+{
+    public static void main(String args[])
+    {
+        // Using Scanner for Getting Input from User
+        Scanner in = new Scanner(System.in);
+	private int count=0;
+	private int empid=1000;
+	do
+	{
+	        system.out.println("Enter your First Name :");
+        	string FirstName = in.nextLine(); 
+		system.out.println("\nEnter your Last Name :");
+        	string LastName = in.nextLine();
+		system.out.println("\nEnter your Salary :");
+	        int Salary = in.nextLine();
+		system.out.println("\nEnter your Grade :");
+	        string Grade = in.nextLine();
+		system.out.println("\nEnter your joining month(mmm:yyyy) :");
+	        string DOJ = in.nextLine();
+		empid=empid+count;
+		count=count+1;
+		system.out.println("\nEmployee id : " +empid);
+		system.out.println("\nDo you want add another employee (Y/N) :");
+	        char LoopRun = in.nextLine();
+	}while((LoopRun=='Y')||(LoopRun=='y')) 	
+    }
+}
